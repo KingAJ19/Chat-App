@@ -6,7 +6,7 @@ export const Register = () => {
         <div className="formWrapper">
             <span className="logo">Super Chat</span>
             <span className="logo">Register</span>
-            <form>
+            <form className='form'>
                 <input type="text" placeholder='Name'></input>
                 <input type="email" placeholder='Email'></input>
                 <input type="password" placeholder='Password'></input>
