@@ -1,5 +1,5 @@
 .formContainer {
-    background-color: aqua;
+    background-color: #5d5b8d;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -35,6 +35,18 @@
 input {
   padding: 15px;
   border: none;
-  border-bottom:1px solid aqua;
+  border-bottom:1px solid #5d5b8d;
+}
+
+button {
+  background-color: #5d5b8d;
+  color: #fff;
+  cursor: pointer;
+}
+
+p {
+  color: #5d5b8d;
+  font-size: 12px;
+  margin-top: 10px;
 }
     
