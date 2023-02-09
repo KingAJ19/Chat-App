@@ -4,8 +4,13 @@ export const Register = () => {
   return (
     <div className='formContainer'>
         <div className="formWrapper">
+            <center>
             <span className="logo">Super Chat</span>
-            <span className="logo">Register</span>
+            </center>
+            <br></br>
+            <center>
+            <span className="title">Register</span>
+            </center>
             <form className='form'>
                 <input type="text" placeholder='Name'></input>
                 <input type="email" placeholder='Email'></input>
