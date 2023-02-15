@@ -6,7 +6,6 @@ export const Register = () => {
       <div className="formWrapper">
         <center>
           <span className="logo">Super Chat</span>
-
         </center>
         <br></br>
         <center>
