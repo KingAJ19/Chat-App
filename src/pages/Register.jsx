@@ -5,7 +5,7 @@ export const Register = () => {
     <div className='formContainer'>
       <div className="formWrapper">
         <center>
-          <span className="logo">Super Chat</span> 
+          <span className="logo">Super Chat</span>
         </center>
         <br></br>
         <center>
