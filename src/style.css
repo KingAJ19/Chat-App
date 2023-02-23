@@ -199,6 +199,18 @@ img {
   cursor: pointer;
 }
 
+.inputC {
+  height: 50px;
+  background-color: white;
+  padding: 10px;
+}
+
+.messages {
+  background-color: #ddddf7;
+  padding: 10px;
+  height: calc(100% - 100px);
+}
+
 .sidebar {
   flex: 1;
   background-color: #3e3c61;
