@@ -12,7 +12,7 @@ const Input = () => {
         <label htmlFor="file">
           <img className='inputImg' src={Img} alt="" />
         </label>
-        <button>Send</button>
+        <button className='inputBtn'>Send</button>
       </div>
     </div>
   )
