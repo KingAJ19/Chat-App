@@ -152,6 +152,14 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
+  color: white;
+  cursor: pointer;
+}
+.userChat::placeholder{
+  color: lightgrey;
+}
+.userChat:hover {
+  background-color: #2f2d52;
 }
 
 
