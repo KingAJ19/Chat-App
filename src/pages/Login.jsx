@@ -15,12 +15,7 @@ export const Login = () => {
         <form className='form'>
           <input type="email" placeholder='Email'></input>
           <input type="password" placeholder='Password'></input>
-          <input style={{display:"none"}} type="file" id="file" />
-          <label htmlFor="file">
-            <img src={Add} alt="add an avatar" />
-            <span>Add an avatar</span>
-          </label>
-          <button>Sign Up</button>
+          <button>Sign In</button>
         </form>
         <p>Have an account? Login</p>
       </div>
