@@ -67,7 +67,6 @@ img {
   width: 32px;
 }
 
-/* Responsiveness */
 @media screen and (max-width: 600px) {
   .formContainer, .formWrapper, input[type=submit] {
     width: 100%;
