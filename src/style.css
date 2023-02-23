@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .formContainer {
     background-color: #5d5b8d;
     height: 100vh;
@@ -56,4 +60,11 @@ p {
     margin-top: 0;
   }
 }
-    
+
+@media screen and (max-width: 375px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* flex-direction: column; */
