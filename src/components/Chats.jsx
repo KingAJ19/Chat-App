@@ -28,9 +28,9 @@ const Chats = () => {
       </div>
 
       <div className="userChat">
-        <img className='searchImage' src="https://resources.premierleague.com/premierleague/photo/2023/01/04/effad1fa-ede8-4a56-83d4-d2c840bddf44/Kane-Spurs.jpg" alt="" />
+        <img className='searchImage' src="https://d2x51gyc4ptf2q.cloudfront.net/content/uploads/2023/01/29083952/Arsenal-midfielder-Martin-Odegaard.jpg" alt="" />
         <div className="userChatsInfo">
-          <span>Harry Kane</span>
+          <span>Odegaard</span>
           <p>Hello</p>
         </div>
       </div>
