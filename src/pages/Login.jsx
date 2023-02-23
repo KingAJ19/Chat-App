@@ -1,6 +1,5 @@
 import React from 'react';
 import '../responsive.css'
-import Add from "../img/addAvatar.png"
 
 export const Login = () => {
   return (
