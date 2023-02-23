@@ -162,6 +162,15 @@ img {
   background-color: #2f2d52;
 }
 
+.userChatsInfo span{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.userChatsInfo p {
+  font-size: 14px;
+  color: lightgrey;
+}
 
 .searchImage {
   width: 50px;
