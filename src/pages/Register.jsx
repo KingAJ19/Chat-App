@@ -16,6 +16,7 @@ export const Register = () => {
           <input type="email" placeholder='Email'></input>
           <input type="password" placeholder='Password'></input>
           <input type="file" placeholder='Name' />
+          <label htmlFor=''></label>
           <button>Sign Up</button>
         </form>
         <p>Have an account? Login</p>
