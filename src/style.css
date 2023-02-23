@@ -252,6 +252,16 @@ input::placeholder {
   margin-bottom: 20px;
 }
 
+.owner {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.owner p {
+  background-color: #8da4f1;
+  border-radius: 10px 0px 10px 10px;
+}
+
 .messageInfo {
   display: flex;
   flex-direction: column;
