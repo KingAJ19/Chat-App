@@ -18,7 +18,7 @@ export const Register = () => {
           <input type="password" placeholder='Password'></input>
           <input style={{display:"none"}} type="file" id="file" />
           <label htmlFor="file">
-            <img src="" alt="" />
+            <img src={Add} alt="add an avatar" />
           </label>
           <button>Sign Up</button>
         </form>
