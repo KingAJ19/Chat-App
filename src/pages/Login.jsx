@@ -13,7 +13,6 @@ export const Login = () => {
           <span className="title">Login</span>
         </center>
         <form className='form'>
-          <input type="text" placeholder='Name'></input>
           <input type="email" placeholder='Email'></input>
           <input type="password" placeholder='Password'></input>
           <input style={{display:"none"}} type="file" id="file" />
