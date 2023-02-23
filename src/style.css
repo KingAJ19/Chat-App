@@ -99,6 +99,12 @@ img {
   overflow: hidden;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #2f2d52;
+}
+
 .sidebar {
   flex: 1;
   background-color: #3e3c61;
