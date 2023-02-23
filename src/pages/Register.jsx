@@ -3,6 +3,13 @@ import '../responsive.css'
 import Add from "../img/addAvatar.png"
 
 export const Register = () => {
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log(e.target[0].value)
+  }
+
+
   return (
     <div className='formContainer'>
       <div className="formWrapper">
@@ -13,7 +20,7 @@ export const Register = () => {
         <center>
           <span className="title">Register</span>
         </center>
-        <form className='form'>
+        <form className='form' onSubmit={handleSubmit}>
           <input type="text" placeholder='Name'></input>
           <input type="email" placeholder='Email'></input>
           <input type="password" placeholder='Password'></input>
