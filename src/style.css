@@ -101,3 +101,7 @@ img {
 .sidebar {
   flex: 1;
 }
+
+.chat {
+  flex: 2;
+}
