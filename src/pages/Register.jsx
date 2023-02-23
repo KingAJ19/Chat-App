@@ -17,7 +17,7 @@ export const Register = () => {
           <input type="password" placeholder='Password'></input>
           <input type="file" id="file" />
           <label htmlFor="file">
-            abcdefg
+            abcdefgh
           </label>
           <button>Sign Up</button>
         </form>
