@@ -274,12 +274,14 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: flex-end;
 }
 
 .messageContent p {
   background-color: white;
   padding: 10px 20px;
   border-radius: 0px 10px 10px 10px;
+  max-width: max-content;
 }
 
 .contentImg {
