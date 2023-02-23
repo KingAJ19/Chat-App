@@ -1,7 +1,7 @@
 import React from 'react';
 import Add from "../img/addAvatar.png"
 
-export const Register = () => {
+export const Login = () => {
   return (
     <div className='formContainer'>
       <div className="formWrapper">
@@ -10,7 +10,7 @@ export const Register = () => {
         </center>
         <br></br>
         <center>
-          <span className="title">Register</span>
+          <span className="title">Login</span>
         </center>
         <form className='form'>
           <input type="text" placeholder='Name'></input>
@@ -30,4 +30,4 @@ export const Register = () => {
 } 
 
 
-export default Register
+export default Login
