@@ -119,6 +119,13 @@ img {
   gap: 10px;
 }
 
+.navImage {
+  background-color: #ddddf7;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+
 .sidebar {
   flex: 1;
   background-color: #3e3c61;
