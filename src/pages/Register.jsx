@@ -19,6 +19,7 @@ export const Register = () => {
           <input style={{display:"none"}} type="file" id="file" />
           <label htmlFor="file">
             <img src={Add} alt="add an avatar" />
+            <span></span>
           </label>
           <button>Sign Up</button>
         </form>
