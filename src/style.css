@@ -94,4 +94,6 @@ img {
 .container {
   border: 1px solid white;
   border-radius: 10px;
+  width: 50%;
+  height: 70%;
 }
