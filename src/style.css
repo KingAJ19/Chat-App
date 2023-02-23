@@ -109,6 +109,16 @@ img {
   color: #ddddf7;
 }
 
+.navLogo {
+  font-weight: bold;
+}
+
+
+.user {
+  display: flex;
+  gap: 10px;
+}
+
 .sidebar {
   flex: 1;
   background-color: #3e3c61;

@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='navbar'>
       <span className="navLogo">Super Chat</span>
       <div className="user">
-        <img src="" alt="" />
+        <img className='navImage' src="" alt="" />
         <span>John</span>
         <button>Log out</button>
       </div>
