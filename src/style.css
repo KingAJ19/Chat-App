@@ -62,7 +62,7 @@ p {
 }
 
 @media screen and (max-width: 375px) {
-  .col-25, .col-75, input[type=submit] {
+  .formContainer, .formWrapper, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
