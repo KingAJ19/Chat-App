@@ -95,4 +95,5 @@ img {
   border-radius: 10px;
   width: 60%;
   height: 80%;
+  display: flex;
 }
