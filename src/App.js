@@ -5,8 +5,8 @@ import './style.css'
 
 function App() {
   return (
-    // <Register />
-    <Login />
+    <Register />
+    // <Login />
   );
 }
 
