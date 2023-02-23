@@ -96,6 +96,7 @@ img {
   width: 60%;
   height: 80%;
   display: flex;
+  overflow: hidden;
 }
 
 .sidebar {
