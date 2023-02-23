@@ -200,15 +200,41 @@ img {
 }
 
 .inputC {
-  height: 50px;
+  height: 69px;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #2f2d52;
+  font-size: 18px;
+}
+
+input::placeholder {
+  color: lightgrey;
+}
+
+.send {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputImg {
+  height: 24px;
+  cursor: pointer;
 }
 
 .messages {
   background-color: #ddddf7;
   padding: 10px;
-  height: calc(100% - 100px);
+  height: calc(100% - 120px);
 }
 
 .sidebar {
