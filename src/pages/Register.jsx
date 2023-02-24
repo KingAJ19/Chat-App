@@ -4,6 +4,7 @@ import '../responsive.css'
 import Add from "../img/addAvatar.png"
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { auth, storage } from '../firebase'
+import { doc, setDoc } from 'firebase/firestore'
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
 import { async } from '@firebase/util';
 
