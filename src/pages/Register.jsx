@@ -1,6 +1,7 @@
 import React from 'react';
 import '../responsive.css'
 import Add from "../img/addAvatar.png"
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 
 export const Register = () => {
 
@@ -10,6 +11,12 @@ export const Register = () => {
     const email = e.target[1].value;
     const password = e.target[2].value;
     const file = e.target[3].files[0];
+
+    const auth = getAuth();
+    createUserWithEmailAndPassword(auth, email, password)
+    .then((userCredential) => {
+      //Signed in
+    })
   }
 
 
