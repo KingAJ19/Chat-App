@@ -33,9 +33,7 @@ export const Register = () => {
               console.log("File is available at ", downloadURL);
             })
           }
-        )
-
-
+        );
       } catch (err) {
         setErr(true)
       }
