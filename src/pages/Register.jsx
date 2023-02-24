@@ -2,6 +2,7 @@ import React from 'react';
 import '../responsive.css'
 import Add from "../img/addAvatar.png"
 import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../firebase'
 
 export const Register = () => {
 
