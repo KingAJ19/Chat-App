@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import '../responsive.css'
 import Add from "../img/addAvatar.png"
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../firebase'
+import { auth, storage } from '../firebase'
 import { async } from '@firebase/util';
 
 export const Register = () => {
