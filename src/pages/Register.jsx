@@ -6,7 +6,7 @@ export const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    
+    const displayName = e.target[0].value;
   }
 
 
