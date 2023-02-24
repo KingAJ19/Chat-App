@@ -27,6 +27,11 @@ export const Register = () => {
         uploadTask.on(
           (error) => {
             setErr(true)
+          },
+          () => {
+            getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+              console.log("File is available at ", downloadURL);
+            })
           }
         )
 
