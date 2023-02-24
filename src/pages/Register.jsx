@@ -4,6 +4,7 @@ import '../responsive.css'
 import Add from "../img/addAvatar.png"
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth, storage } from '../firebase'
+import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
 import { async } from '@firebase/util';
 
 export const Register = () => {
