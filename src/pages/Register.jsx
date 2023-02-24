@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useState } from "react";
 import '../responsive.css'
 import Add from "../img/addAvatar.png"
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { auth, storage } from '../firebase'
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
 import { async } from '@firebase/util';
@@ -29,8 +29,8 @@ export const Register = () => {
             setErr(true)
           },
           () => {
-            getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
-              console.log("File is available at ", downloadURL);
+            getDownloadURL(uploadTask.snapshot.ref).then( async (downloadURL) => {
+              await updateProfile()
             })
           }
         );
