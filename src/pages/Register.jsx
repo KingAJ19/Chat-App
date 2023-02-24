@@ -22,6 +22,8 @@ export const Register = () => {
 
         const storageRef = ref(storage, displayName);
 
+        const uploadTask = uploadBytesResumable(storageRef, file);
+
 
       } catch (err) {
         setErr(true)
