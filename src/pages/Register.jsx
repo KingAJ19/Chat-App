@@ -34,14 +34,16 @@ export const Register = () => {
               await updateProfile(res.user, {
                 displayName,
                 photoURL: downloadURL
-              })
+              });
+              await setDoc(doc(db, "users", res.user.uid), {
+                uid: res.user.uid,
+                displayName,
+                email,
+                photoURL: downloadURL
+              });
             })
           }
         );
-
-          await setDoc(doc(db, "users", res.user.uid), {
-            
-          })
 
       } catch (err) {
         setErr(true)
