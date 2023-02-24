@@ -44,7 +44,6 @@ export const Register = () => {
             })
           }
         );
-
       } catch (err) {
         setErr(true)
       }
