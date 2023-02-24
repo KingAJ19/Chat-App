@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import '../responsive.css'
 import Add from "../img/addAvatar.png"
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
-import { auth, storage } from '../firebase'
+import { auth, db, storage } from '../firebase'
 import { doc, setDoc } from 'firebase/firestore'
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
 import { async } from '@firebase/util';
@@ -38,6 +38,11 @@ export const Register = () => {
             })
           }
         );
+
+          await setDoc(doc(db, "users", res.user.uid), {
+            
+          })
+
       } catch (err) {
         setErr(true)
       }
