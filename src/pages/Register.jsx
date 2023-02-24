@@ -8,6 +8,8 @@ export const Register = () => {
     e.preventDefault()
     const displayName = e.target[0].value;
     const email = e.target[1].value;
+    const password = e.target[2].value;
+    const file = e.target[3].files[0];
   }
 
 
