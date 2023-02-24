@@ -30,7 +30,10 @@ export const Register = () => {
           },
           () => {
             getDownloadURL(uploadTask.snapshot.ref).then( async (downloadURL) => {
-              await updateProfile()
+              await updateProfile(res.user, {
+                displayName,
+                photoURL: downloadURL
+              })
             })
           }
         );
