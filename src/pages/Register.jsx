@@ -13,7 +13,6 @@ export const Register = () => {
     const password = e.target[2].value;
     const file = e.target[3].files[0];
 
-    const auth = getAuth();
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
       //Signed in
