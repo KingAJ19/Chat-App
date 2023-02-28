@@ -8,7 +8,7 @@ import './style.css'
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes> 
         <Route path="/"> 
           <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
