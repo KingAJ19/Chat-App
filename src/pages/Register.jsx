@@ -12,6 +12,7 @@ import { useNavigate } from 'react-router-dom';
 export const Register = () => {
 
   const [err, setErr] = useState(false)
+  const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault()
     const displayName = e.target[0].value;
@@ -44,8 +45,7 @@ export const Register = () => {
             });
 
             await setDoc(doc(db, "userChats", res.user.uid), {});
-
-             
+            navigate("/") 
 
           })
         }
