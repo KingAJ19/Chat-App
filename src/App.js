@@ -7,7 +7,7 @@ import './style.css'
 
 function App() {
   return (
-    <Register />
+    // <Register />
     // <Login />
     // <Home />
   );
