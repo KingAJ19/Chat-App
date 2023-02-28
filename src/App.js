@@ -7,10 +7,13 @@ import './style.css'
 
 function App() {
   return (
-    // <Register />
-    // <Login />
-    // <Home />
+    <BrowserRouter>
+    
+    </BrowserRouter>
   );
 }
 
+// <Register />
+    // <Login />
+    // <Home />
 export default App;
