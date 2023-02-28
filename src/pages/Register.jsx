@@ -7,6 +7,7 @@ import { auth, db, storage } from '../firebase'
 import { doc, setDoc } from 'firebase/firestore'
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
 import { async } from '@firebase/util';
+import { useNavigate } from 'react-router-dom';
 
 export const Register = () => {
 
