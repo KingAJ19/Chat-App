@@ -14,6 +14,11 @@ export const AuthContextProvider = ({children}) => {
             setCurrentUser(user);
             console.log(user)
         });
+
+        return () => {  
+            
+        }
+
     }, []);
 
     return (
