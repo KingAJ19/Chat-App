@@ -13,4 +13,8 @@ export const AuthContextProvider = ({children}) => {
             console.log(user)
         });
     }, [])
+
+    <AuthContext.Provider>
+        {children}
+    </AuthContext.Provider>
 }
