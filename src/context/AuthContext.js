@@ -15,7 +15,7 @@ export const AuthContextProvider = ({children}) => {
             console.log(user)
         });
 
-        return () => {  
+        return () => {   
             unsub();
         }
 
