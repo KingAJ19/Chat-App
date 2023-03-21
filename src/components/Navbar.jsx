@@ -4,7 +4,6 @@ import { auth } from '../firebase'
 
 
 
-
 const Navbar = () => {
   return (
     <div className='navbar'>
