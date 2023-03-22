@@ -13,7 +13,7 @@ const Navbar = () => {
         <button className='navBtn' onClick={() => signOut(auth)}>Log out</button>
       </div>
     </div>
-  )
+  ) 
 }
 
 export default Navbar
