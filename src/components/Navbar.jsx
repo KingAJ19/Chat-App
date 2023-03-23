@@ -3,7 +3,7 @@ import React from 'react'
 import { auth } from '../firebase'
 
 
-const Navbar = () => {
+const Navbar = () => { 
   return (
     <div className='navbar'>
       <span className="navLogo">Super Chat</span>
