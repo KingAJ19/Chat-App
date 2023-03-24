@@ -3,7 +3,7 @@ import React from 'react'
 import { auth } from '../firebase'
 
 
-const Navbar = () => { 
+const Navbar = () => {
   return (
     <div className='navbar'>
       <span className="navLogo">Super Chat</span>
@@ -13,7 +13,7 @@ const Navbar = () => {
         <button className='navBtn' onClick={() => signOut(auth)}>Log out</button>
       </div>
     </div>
-  ) 
+  )
 }
 
 export default Navbar
