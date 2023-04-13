@@ -12,7 +12,7 @@ const Navbar = () => {
         <span>John</span>
         <button className='navBtn' onClick={() => signOut(auth)}>Log out</button> 
       </div>
-    </div>
+    </div> 
   )
 }
  
